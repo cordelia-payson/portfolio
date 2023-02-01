@@ -16,6 +16,13 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
+      {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]',
+        },
+      },
     ],
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
