@@ -4,6 +4,7 @@ import Intro from './Intro.jsx';
 import About from './About.jsx';
 import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
+import Footer from '../navbar/Footer.jsx';
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

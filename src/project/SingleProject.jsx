@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubIcon from './GithubIcon.jsx';
+import GithubIcon from './GitHubIcon.jsx';
 
 function SingleProject(props) {
   const { name, link, description, photo } = props;
