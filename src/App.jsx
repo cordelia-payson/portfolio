@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from './navbar/NavBar.jsx';
 
 export default function App() {
   return (
     <div>
-      <h1 className="text-primary text-4xl font-bold">React from Scratch</h1>
+      <NavBar />
     </div>
   );
 }
