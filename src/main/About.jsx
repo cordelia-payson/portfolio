@@ -3,7 +3,7 @@ import portrait from '../images/portrait.jpeg';
 
 function About() {
   return (
-    <div className="hero bg-base-200">
+    <div id="about" className="hero bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={portrait} alt="portrait" className="max-w-sm rounded-lg shadow-2xl m-4" />
         <div>

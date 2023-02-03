@@ -6,7 +6,7 @@ import fec from '../images/fec.png';
 
 function Projects() {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div id="projects" className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
         <h1 className="text-5xl font-bold m-5">Projects</h1>
         <div className="carousel rounded-box">
