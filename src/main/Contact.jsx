@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-base-200">
       <h1 className="text-5xl font-bold m-5">Contact</h1>
       <div className="flex flex-row">
         <a href="mailto:cordelia.payson@gmail.com" target="_blank" rel="noreferrer noopener">

@@ -8,7 +8,7 @@ import Footer from '../navbar/Footer.jsx';
 
 function Main() {
   return (
-    <div>
+    <div className="">
       <NavBar />
       <Intro />
       <About />
