@@ -2,7 +2,8 @@
 import React from 'react';
 import Toggle from './Toggle.jsx';
 
-function NavBar() {
+function NavBar(props) {
+  const { theme, setTheme } = props;
   return (
     <div className="navbar bg-primary sticky relative top-0 z-50">
       <div className="flex-1">
@@ -14,7 +15,7 @@ function NavBar() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a>Resume</a></li>
-          <li><Toggle /></li>
+          <li><Toggle theme={theme} setTheme={setTheme} /></li>
         </ul>
       </div>
     </div>

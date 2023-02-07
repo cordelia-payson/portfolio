@@ -6,10 +6,11 @@ import Projects from './Projects.jsx';
 import Contact from './Contact.jsx';
 import Footer from '../navbar/Footer.jsx';
 
-function Main() {
+function Main(props) {
+  const { theme, setTheme } = props;
   return (
     <div className="">
-      <NavBar />
+      <NavBar theme={theme} setTheme={setTheme} />
       <Intro />
       <About />
       <Projects />
