@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Toggle from './Toggle.jsx';
+import Resume from './Resume.jsx';
 
 function NavBar(props) {
   const { theme, setTheme } = props;
@@ -14,7 +15,7 @@ function NavBar(props) {
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a>Resume</a></li>
+          <li className="modal-open"><Resume /></li>
           <li><Toggle theme={theme} setTheme={setTheme} /></li>
         </ul>
       </div>

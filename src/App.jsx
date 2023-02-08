@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Main from './main/Main.jsx';
 
-export default function App() {
+function App() {
   const [theme, setTheme] = useState('pastel');
   return (
     <div data-theme={theme}>
@@ -9,3 +9,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
