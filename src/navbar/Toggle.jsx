@@ -5,7 +5,7 @@ function Toggle(props) {
   const { theme, setTheme } = props;
 
   const handleChange = () => {
-    setTheme(theme === 'pastel' ? 'dracula' : 'pastel');
+    setTheme(theme === 'pastel' ? 'darkTheme' : 'pastel');
   };
   return (
     <label className="swap swap-rotate">
