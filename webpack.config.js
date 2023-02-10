@@ -23,6 +23,10 @@ module.exports = {
           filename: 'images/[name][ext]',
         },
       },
+      {
+        test: /\.(pdf)$/,
+        type: 'asset/source',
+      },
     ],
   },
   resolve: { extensions: ['*', '.js', '.jsx'] },
