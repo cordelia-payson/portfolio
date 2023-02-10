@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -26,6 +27,7 @@ module.exports = {
       {
         test: /\.(pdf)$/,
         type: 'asset/source',
+        use: 'file-loader?name=[path][name].[ext]',
       },
     ],
   },
@@ -41,5 +43,14 @@ module.exports = {
     compress: true,
     port: 3000,
   },
-  // plugins: [new webpack.HotModuleReplacementPlugin()]
+  plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.join(path.dirname(require.resolve('pdfjs-dist/package.json')), 'cmaps'),
+          to: 'cmaps/',
+        },
+      ],
+    }),
+  ],
 };
