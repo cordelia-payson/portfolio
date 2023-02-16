@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development --watch",
-    "build": "webpack --mode=production --node-env=production",
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
     "server": "nodemon server/index.js"
   },
   "dependencies": {
@@ -15,8 +15,7 @@
     "nodemon": "^2.0.20",
     "postcss-loader": "^7.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-pdf": "^6.2.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
