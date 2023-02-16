@@ -1,7 +1,7 @@
 // icon:github | Ant Design Icons https://ant.design/components/icon/ | Ant Design
 import * as React from 'react';
 
-function IconGithub(props) {
+function GitHubIcon(props) {
   return (
     <svg
       viewBox="0 0 1024 1024"
@@ -15,4 +15,4 @@ function IconGithub(props) {
   );
 }
 
-export default IconGithub;
+export default GitHubIcon;
