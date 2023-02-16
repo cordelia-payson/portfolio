@@ -1,10 +1,13 @@
-import React from 'react';
-import NavBar from './navbar/NavBar.jsx';
+import React, { useState } from 'react';
+import Main from './main/Main.jsx';
 
-export default function App() {
+function App() {
+  const [theme, setTheme] = useState('pastel');
   return (
-    <div>
-      <NavBar />
+    <div data-theme={theme}>
+      <Main theme={theme} setTheme={setTheme} />
     </div>
   );
 }
+
+export default App;
