@@ -1,6 +1,6 @@
 import React from 'react';
 import LinkedIn from './LinkedIn.jsx';
-import GitHub from '../project/GitHubIcon.jsx';
+import GitHub from '../project/GitHub.jsx';
 
 function Footer() {
   return (

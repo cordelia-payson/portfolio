@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubIcon from './GitHubIcon.jsx';
+import Github from './GitHub.jsx';
 
 function SingleProject(props) {
   const { name, link, description, photo } = props;
@@ -11,7 +11,7 @@ function SingleProject(props) {
         <p className="">{description}</p>
         <div className="card-actions justify-end">
           <a href={link} alt="github link" target="_blank" rel="noreferrer noopener">
-            <GithubIcon className="transform transition duration-500 hover:scale-125 hover:shadow-2xl" />
+            <Github className="transform transition duration-500 hover:scale-125 hover:shadow-2xl" />
           </a>
 
         </div>
