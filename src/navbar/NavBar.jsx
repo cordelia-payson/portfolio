@@ -8,7 +8,7 @@ function NavBar(props) {
   return (
     <div className="navbar bg-primary sticky relative top-0 z-50">
       <div className="flex-1">
-        <a href="#" className=" text-xl font-bold bg-primary border-none transform transition duration-500 hover:scale-105 hover:shadow-2xl ml-2">Cordelia Payson</a>
+        <a href="#" className=" text-xl font-bold border-none transform transition duration-500 hover:scale-105 hover:shadow-2xl ml-2">Cordelia Payson</a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
