@@ -7,9 +7,9 @@ import fec from '../images/fec.png';
 function Projects() {
   return (
     <div id="projects" className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row">
+      <div className="hero-content flex-col lg:flex-row w-screen">
         <h1 className="text-5xl font-bold m-5">Projects</h1>
-        <div className="carousel rounded-box">
+        <div className="carousel rounded-box w-screen">
           <div className="carousel-item">
             <SingleProject name="Visualizing History" description="Visualizing History was created as a result of my strong desire for a reliabe source for images of historical items without any visual clutter. This site is for readers, writers, and anyone with a love of history. Images are pulled from musuem collections for results that are more tailored than a Google search. the" link="https://github.com/cordelia-payson/visualizing-history" photo={vh} />
           </div>
