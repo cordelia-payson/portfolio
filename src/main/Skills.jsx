@@ -7,7 +7,7 @@ function Skills() {
   const softSkills = ['Agile Methodology', 'Problem Solving', 'Written and Oral Communication', 'Research'];
 
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div id="skills" className="hero min-h-screen bg-base-200">
       <div>
         <div>
           <h1 className="text-5xl font-bold text-center m-4">Skills</h1>
