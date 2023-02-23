@@ -8,8 +8,8 @@ function About() {
         <img src={portrait} alt="portrait" className="max-w-sm rounded-lg shadow-2xl m-4" />
         <div>
           <h1 className="text-5xl font-bold">About Me</h1>
-          <p className="py-6">Experienced in Front End and knowledeable about Back End</p>
-          <p className="py-6"> My name is Cordelia and I am a fullstack software engineer. I am enthusiastic about problem solving, writing clean code, and </p>
+          <p className="py-6"> My name is Cordelia Payson and I am a fullstack software engineer. I am enthusiastic about problem solving, writing clean code, and learning new tech. </p>
+          <p className="py-6">Excited about learning new languages, traveling, cooking, and reading a good book</p>
           <p className="py-6">Currently learning.... Typescript</p>
         </div>
       </div>

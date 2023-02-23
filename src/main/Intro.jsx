@@ -6,7 +6,7 @@ function Intro() {
       <div className="hero-content text-left">
         <div className="">
           <h1 className="text-5xl font-bold">Hey, I'm Cordelia</h1>
-          <p className="py-6">Full stack software engineer from the East Coast</p>
+          <p className="py-6 text-center">~ East Coast Based Software Engineer ~</p>
         </div>
       </div>
     </div>

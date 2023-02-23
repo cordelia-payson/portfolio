@@ -1,21 +1,16 @@
 import React from 'react';
+import SkillsCard from './SkillsCard.jsx';
 
 function Skills() {
+  const techSkills = ['Javascript', 'React', 'CSS', 'HTML', 'SQL/noSQL', 'Redux'];
+  const softSkills = ['Agile Methodology', 'Problem Solving', 'Written and Oral Communication', 'Research'];
+
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row">
-        <h1 className="text-5xl font-bold">Skills</h1>
-        <div className="flex w-full">
-          <div>Javascript</div>
-          <div>React</div>
-          <div>CSS</div>
-          <div>HTML</div>
-          <div className="divider divider-horizontal" />
-          <div>Written Communication</div>
-          <div>Agile Methodologies</div>
-          <div>Research</div>
+        <div>
+          <h1 className="text-5xl font-bold">Tech Stack</h1>
         </div>
-
       </div>
     </div>
   );

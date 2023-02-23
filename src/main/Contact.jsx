@@ -10,10 +10,10 @@ function Contact() {
             <button type="button" className="btn btn-primary w-fit m-3 normal-case rounded-xl">cordelia.payson@gmail.com</button>
           </a>
           <a href="https://www.linkedin.com/in/cordelia-payson/" target="_blank" rel="noreferrer noopener">
-            <button type="button" className="btn btn-primary w-fit m-3 normal-case rounded">LinkedIn</button>
+            <button type="button" className="btn btn-primary w-fit m-3 normal-case rounded-xl">LinkedIn: cordelia-payson</button>
           </a>
           <a href="https://github.com/cordelia-payson" target="_blank" rel="noreferrer noopener">
-            <button type="button" className="btn btn-primary w-fit m-3 normal-case">GitHub</button>
+            <button type="button" className="btn btn-primary w-fit m-3 normal-case rounded-xl">GitHub: cordelia-payson</button>
           </a>
         </div>
 

@@ -14,10 +14,10 @@ function Projects() {
             <SingleProject name="Visualizing History" description="Visualizing History was created as a result of my strong desire for a reliabe source for images of historical items without any visual clutter. This site is for readers, writers, and anyone with a love of history. Images are pulled from musuem collections for results that are more tailored than a Google search. the" link="https://github.com/cordelia-payson/visualizing-history" photo={vh} />
           </div>
           <div className="carousel-item">
-            <SingleProject name="TheCampSite" description="TheCampSite allows users to review campsites and find campsites based on their location. Users can log in with their Google account and save campsites they are interested. I worked with five other teammates to bring this project to life. I was the UI owner." link="https://github.com/BO-BiscayBay/TheCampSite" photo={thecampsite} />
+            <SingleProject name="TheCampSite" description="TheCampSite allows users to review campsites and find campsites based on their location. As the UI owner, I was responsible for creating the wireframe. The biggest challenge in this role was designing components that transitioned seamlessly between desktop and mobile." link="https://github.com/BO-BiscayBay/TheCampSite" photo={thecampsite} />
           </div>
           <div className="carousel-item">
-            <SingleProject name="E-Commerce Product Page" description="This e-commerce product page was developed with a team of three others. I created the Ratings and Reviews section. Users can sort reviews, filter by rating, and add their own review." link="https://github.com/hr-gladiolus/fec-gladiolus" photo={fec} />
+            <SingleProject name="E-Commerce Product Page" description="This e-commerce product page was developed with a team of three others. I created the Ratings and Reviews section for the product. Users can sort reviews, filter by rating, and add their own review. All components were created from scratch with Javascript, CSS, and HTML!" link="https://github.com/hr-gladiolus/fec-gladiolus" photo={fec} />
           </div>
         </div>
       </div>
