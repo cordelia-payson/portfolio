@@ -10,7 +10,7 @@ function Resume() {
 
       {/* Put this part before </body> tag */}
       <input type="checkbox" id="my-modal-5" className="modal-toggle" />
-      <div className="modal bg-primary/75">
+      <div className="modal">
         <div className="modal-box relative bg-white max-w-4xl">
           <a href="resume.pdf" download="CordeliaPaysonResume.pdf">
             <button className="btn btn-sm absolute left-2 top-2 bg-primary text-primary-content border-none" type="button">Download</button>
