@@ -9,7 +9,7 @@ function Contact() {
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <div className="chat chat-start justify-items-start">
-              <div className="chat-bubble">send me an email</div>
+              <div className="chat-bubble">Send me an email</div>
             </div>
 
             <div className="chat chat-end">
